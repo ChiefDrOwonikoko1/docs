@@ -1,43 +1,7 @@
----
-title: Migrating to the Container registry from the Docker registry
-intro: 'Docker images previously stored in the Docker registry are being automatically migrated to the {% data variables.product.prodname_container_registry %}.'
-product: '{% data reusables.gated-features.packages %}'
-redirect_from:
-  - /packages/getting-started-with-github-container-registry/migrating-to-github-container-registry-for-docker-images
-  - /packages/guides/container-guides-for-github-packages/migrating-to-github-container-registry-for-docker-images
-  - /packages/guides/migrating-to-github-container-registry-for-docker-images
-versions:
-  fpt: '*'
-  ghec: '*'
-shortTitle: Migrate to Container registry
----
 
-{% data variables.product.prodname_dotcom %}'s Docker registry has been replaced by the {% data variables.product.prodname_container_registry %}. If you've stored Docker images in the Docker registry, they will be automatically moved to the {% data variables.product.prodname_container_registry %}. You don't need to do anything. Any scripts or {% data variables.product.prodname_actions %} workflows that use the namespace for the Docker registry (`docker.pkg.github.com`) will continue to work after the migration to the {% data variables.product.prodname_container_registry %} (`ghcr.io`).
+Description:
 
-Migration is being done gradually, rather than all at once. If your images haven't yet been moved over, hold tight, we'll get to them sometime soon.
-
-## How can you tell if your images have been migrated?
-
-After your Docker images have been migrated to the {% data variables.product.prodname_container_registry %} you will see the following changes on the details page for a package:
-
-* The icon is now the {% data variables.product.prodname_container_registry %} logo, previously it was a Docker logo.
-* The domain in the pull URL is now `ghcr.io`, previously it was `docker.pkg.github.com`.
-
-![{% data variables.product.prodname_container_registry %} details page](/assets/images/help/package-registry/container-registry-details-page.png)
-
-## Key differences between the {% data variables.product.prodname_container_registry %} and the Docker registry
-
-The {% data variables.product.prodname_container_registry %} is optimized to support some of the unique needs of containers.
-
-With the {% data variables.product.prodname_container_registry %} you can:
-- Store container images within your organization and user account, or connect them to a repository.
-- Choose whether to inherit permissions from a repository, or set granular permissions independently of a repository.
-- Access public container images anonymously.
-
-### API queries for details of Docker images
-
-After migration you'll no longer be able to use the GraphQL API to query for packages of `PackageType` "DOCKER". Instead, you can use the REST API to query for packages with the `package_type` "container". For more information, see the REST API article "[Packages](/rest/reference/packages)."
-
-## Billing
-
-For more information about billing for the {% data variables.product.prodname_container_registry %}, see "[About  billing for {% data variables.product.prodname_registry %}](/billing/managing-billing-for-github-packages/about-billing-for-github-packages)."
++2347017229671,NO CRIME IN TRYING, Because IF YOU FALL,YOU WILL SURELY RISE BY YOUR EFFORTS,So do not HIDE YOUR PROBLEMS....
+Do you know you can be WEALTHY without HUMAN BEING SACRIFICE,so CHIEF ORIOGBO OWONIKOKO of IJEBU LAND,also the BAAJITO ISEGUN OF IJEBU IGBO is here to help people's that come to seek of his help,He hate lie,just be Loyal and honest to him and explain everything you need to him with open mind,All the problem you share shall be solved by the powerful grace of God...... His shrine was Located at IJEBU IGBO OGUN STATE NIGERIA, Do not says you have been SCAM for so many times that you will Relenting,if you fall,you will surely rise by all your efforts...... It's true that a lot of fake HERBALIST and NATIVE DOCTOR in SOCIAL MEDIA,Just know that what you seen can never use to deceive you..... You will open your eyes very well before you make any steps..... You can contact within if you need of anykind of spiritual purpose...such as follows: MAKING MONEY WITHOUT HUMAN SACRIFICE, SEARCHING FOR PREGNANCY, ANAEMIA, TYPHOID,GOLORIA, APPENDIX,MALARI, and many more, BET9JA SUCCESS, PROMOTION AT WORK, INSTANT MONEY, DO AS I SAY, COMMAND TONE, POWER TO PERFORM MIRACLE, CROWD PULLER, BUSINESS BOOSTER, BODY PROTECTION, DISSAPIARING POWER, LOTTO SUCCESS, OSHOLE TUTU, EYONU AYE, IRADAPA, RECOVERY OF LOST GLORY, ASINA OLA, SUCCESS IN EVERYTHING....and so on.. CHIEF ORIOGBO OWONIKOKO is her for you anytime any day, You can come to him and explain whatever you want to the Ancestors and it shall be grant by the powerful grace of God.... Hotline:+2347017229671..... CHIEF ORIOGBO OWONIKOKO was know every part of the world by his great hand work,he also send his product to every where you are under the planet of God......
+MOTTO:GREAT MAN DESERVE GREAT REWARDS...
+NOTICE:IF ANYBODY TRY TO COPY THIS ADVERT TO SCAM OR DO BAD ONLINE,ITS GOD OF IRON,THUNDER that will KILL THE KIND OF PERSON and HIS/HER FAMILIES MEMBERS IN PAIN......
